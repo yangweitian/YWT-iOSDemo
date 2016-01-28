@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#import "YWTVCManager.h"
+#import "MainVC.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    // init window firstly
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    _window.backgroundColor = [UIColor whiteColor];
+    
+    // init view
+    MainVC *mainVC = [[MainVC alloc] init];
+    
+    
+    [_window setRootViewController:mainVC];
+    [_window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/zdyy/native/!svn/ver/3594/code/trunk/Personal-Client-iOS/iRCS/Resource/sound
+END
+msg.wav
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/msg.wav
+END
+您拨打的号码是空号.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/zdyy/native/!svn/ver/3594/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/%E6%82%A8%E6%8B%A8%E6%89%93%E7%9A%84%E5%8F%B7%E7%A0%81%E6%98%AF%E7%A9%BA%E5%8F%B7.mp3
+END
+ringtone.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/ringtone.mp3
+END
+dtmf-0.wav
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/dtmf-0.wav
+END
+dtmf-1.wav
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/dtmf-1.wav
+END
+dtmf-2.wav
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/dtmf-2.wav
+END
+您呼叫的用户暂时无法接听.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/zdyy/native/!svn/ver/3594/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/%E6%82%A8%E5%91%BC%E5%8F%AB%E7%9A%84%E7%94%A8%E6%88%B7%E6%9A%82%E6%97%B6%E6%97%A0%E6%B3%95%E6%8E%A5%E5%90%AC.mp3
+END
+dtmf-3.wav
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/dtmf-3.wav
+END
+dtmf-4.wav
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/dtmf-4.wav
+END
+dtmf-5.wav
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/dtmf-5.wav
+END
+keepawake.wav
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/keepawake.wav
+END
+dtmf-6.wav
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/dtmf-6.wav
+END
+dtmf-7.wav
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/dtmf-7.wav
+END
+您呼叫的用户正在通话中.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/zdyy/native/!svn/ver/3594/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/%E6%82%A8%E5%91%BC%E5%8F%AB%E7%9A%84%E7%94%A8%E6%88%B7%E6%AD%A3%E5%9C%A8%E9%80%9A%E8%AF%9D%E4%B8%AD.mp3
+END
+dtmf-8.wav
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/dtmf-8.wav
+END
+dtmf-9.wav
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/dtmf-9.wav
+END
+dtmf-star.wav
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/dtmf-star.wav
+END
+sms-received1.caf
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/sms-received1.caf
+END
+密码错误，请重新输入.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/zdyy/native/!svn/ver/3594/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/%E5%AF%86%E7%A0%81%E9%94%99%E8%AF%AF%EF%BC%8C%E8%AF%B7%E9%87%8D%E6%96%B0%E8%BE%93%E5%85%A5.mp3
+END
+ringbacktone.wav
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/ringbacktone.wav
+END
+dtmf-pound.wav
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/zdyy/native/!svn/ver/3257/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/dtmf-pound.wav
+END
+您呼叫的用户不在线.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/zdyy/native/!svn/ver/3594/code/trunk/Personal-Client-iOS/iRCS/Resource/sound/%E6%82%A8%E5%91%BC%E5%8F%AB%E7%9A%84%E7%94%A8%E6%88%B7%E4%B8%8D%E5%9C%A8%E7%BA%BF.mp3
+END

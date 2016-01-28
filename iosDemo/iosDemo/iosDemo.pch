@@ -1,0 +1,34 @@
+//
+//  iosDemo.pch
+//  iosDemo
+//
+//  Created by YangWeitian on 16/1/28.
+//  Copyright © 2016年 YangWeitian. All rights reserved.
+//
+
+#ifndef iosDemo_pch
+#define iosDemo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif
+
+
+#import <objc/runtime.h>
+
+// constants
+#import "CommonMacros.h"
+
+// categories
+#import "UIDeviceEX.h"
+
+// UIKit
+
+// YWT custom
+
+#endif /* iosDemo_pch */
