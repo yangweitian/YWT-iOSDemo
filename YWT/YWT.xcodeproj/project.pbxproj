@@ -11,6 +11,7 @@
 		E096B0081C5B0C2100C1D1F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E096B0071C5B0C2100C1D1F6 /* Assets.xcassets */; };
 		E096B00B1C5B0C2100C1D1F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E096B0091C5B0C2100C1D1F6 /* LaunchScreen.storyboard */; };
 		E096B0231C5B10BD00C1D1F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E096B0221C5B10BD00C1D1F6 /* AppDelegate.m */; };
+		E096B0271C5B24CE00C1D1F6 /* YWTBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E096B0261C5B24CE00C1D1F6 /* YWTBaseVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,10 @@
 		E096B00C1C5B0C2100C1D1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E096B0211C5B10BD00C1D1F6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E096B0221C5B10BD00C1D1F6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E096B0241C5B238E00C1D1F6 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		E096B0251C5B24CE00C1D1F6 /* YWTBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWTBaseVC.h; sourceTree = "<group>"; };
+		E096B0261C5B24CE00C1D1F6 /* YWTBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTBaseVC.m; sourceTree = "<group>"; };
+		E096B0361C5B29F100C1D1F6 /* YWT.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWT.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				E096AFFC1C5B0C2100C1D1F6 /* main.m */,
+				E096B0361C5B29F100C1D1F6 /* YWT.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -83,6 +89,7 @@
 			children = (
 				E096B0211C5B10BD00C1D1F6 /* AppDelegate.h */,
 				E096B0221C5B10BD00C1D1F6 /* AppDelegate.m */,
+				E096B0241C5B238E00C1D1F6 /* Constants.h */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -106,6 +113,8 @@
 		E096B0151C5B0F9900C1D1F6 /* YWTBase */ = {
 			isa = PBXGroup;
 			children = (
+				E096B0251C5B24CE00C1D1F6 /* YWTBaseVC.h */,
+				E096B0261C5B24CE00C1D1F6 /* YWTBaseVC.m */,
 			);
 			path = YWTBase;
 			sourceTree = "<group>";
@@ -262,6 +271,7 @@
 			files = (
 				E096AFFD1C5B0C2100C1D1F6 /* main.m in Sources */,
 				E096B0231C5B10BD00C1D1F6 /* AppDelegate.m in Sources */,
+				E096B0271C5B24CE00C1D1F6 /* YWTBaseVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +307,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_HEADERS_RUN_UNIFDEF = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -305,6 +316,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YWT/YWT.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -340,12 +353,15 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_HEADERS_RUN_UNIFDEF = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YWT/YWT.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -400,6 +416,7 @@
 				E096B0111C5B0C2100C1D1F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

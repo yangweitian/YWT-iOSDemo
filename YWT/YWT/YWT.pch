@@ -1,0 +1,20 @@
+//
+//  YWT.pch
+//  YWT
+//
+//  Created by YangWeitian on 16/1/29.
+//  Copyright © 2016年 YangWeitian. All rights reserved.
+//
+
+#ifndef YWT_pch
+#define YWT_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif
+
+#endif /* YWT_pch */

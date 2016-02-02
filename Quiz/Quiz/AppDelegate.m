@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  YWT
+//  Quiz
 //
-//  Created by YangWeitian on 16/1/29.
+//  Created by YangWeitian on 16/2/2.
 //  Copyright © 2016年 YangWeitian. All rights reserved.
 //
 
@@ -17,15 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
-    
-    UIViewController *vc = [[UIViewController alloc] init];
-    
-    self.window.rootViewController = vc;
-    [self.window makeKeyAndVisible];
-    
     return YES;
 }
 
